@@ -1,0 +1,197 @@
+/* #boxField{
+    margin:50px auto;
+    color: rgb(37, 109, 37);
+}
+#Layer_1{
+    width: 25px;
+    height: 25px;
+} */
+
+html,body{
+    background-image:
+radial-gradient(circle at 100% 150%, rgb(121, 182, 121) 40%, transparent 40%, transparent),
+radial-gradient(circle at 0 150%, rgb(121, 182, 121) 40%, transparent 40%, transparent),
+radial-gradient(circle at 50% 100%, rgb(88, 117, 88) 71%, transparent 71%,   transparent),
+radial-gradient(circle at 100% 50%, rgb(121, 182, 121) 49%, transparent 50%,  transparent),
+radial-gradient(circle at 0 50%, rgb(121, 182, 121) 49%, transparent 50%, transparent);
+background-repeat: repeat;
+background-size: 50px 25px;
+display: block;
+margin: 0;
+padding: 0;
+}
+#box{
+display: flex;
+justify-content: space-between;
+min-height:100vh;
+}
+.box-content{
+width: 50%
+}
+
+#canvas1{
+    margin-bottom: 10px;
+}
+#buttons{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+}
+#buttons table{
+    width: 180px;
+    height: 180px;
+}
+.img-but{
+    width: 60px;
+    height: 60px;
+}
+.img-but:hover{
+    opacity: 0.8;
+}
+#buttons.none{
+    display: none;
+}
+
+#left-right,#top-down{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#left-right div:first-child,#left-right div:last-child,
+#top-down div:first-child,#top-down div:last-child{
+    height: 80px;
+    width: 80px;
+}
+
+
+@media(min-height:200px){
+.box-content{
+width: 200px;
+height: 200px;
+} 
+} 
+@media(min-height:250px){
+.box-content{
+width: 250px;
+height: 250px;
+} 
+} 
+@media(min-height:300px){
+.box-content{
+width: 300px;
+height: 300px;
+} 
+#buttons{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+}
+#buttons table{
+    width: 60px;
+    height: 60px;
+}
+.img-but{
+    width: 20px;
+    height: 20px;
+}
+} 
+@media(min-height:350px){
+.box-content{
+width: 350px;
+height: 350px;
+} 
+} 
+@media(min-height:400px){
+.box-content{
+width: 400px;
+height: 400px;
+} 
+
+} 
+@media(min-height:450px){
+.box-content{
+width: 450px;
+height: 450px;
+} 
+#buttons{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+#buttons table{
+    width: 120px;
+    height: 120px;
+}
+.img-but{
+    width: 40px;
+    height: 40px;
+}
+} 
+@media(min-height:500px){
+.box-content{
+width: 500px;
+height: 500px;
+} 
+#buttons{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+#buttons table{
+    width: 150px;
+    height: 150px;
+}
+.img-but{
+    width: 50px;
+    height: 50px;
+}
+} 
+@media(min-height:550px){
+.box-content{
+width: 550px;
+height: 550px;
+} 
+#buttons{
+    width: 195px;
+    height: 195px;
+    margin: auto;
+}
+#buttons table{
+    width: 195px;
+    height: 195px;
+}
+.img-but{
+    width: 65px;
+    height: 65px;
+}
+} 
+@media(min-height:600px){
+.box-content{
+width: 600px;
+height: 600px;
+} 
+#buttons{
+    width: 240px;
+    height: 240px;
+    margin: auto;
+}
+#buttons table{
+    width: 240px;
+    height: 240px;
+}
+.img-but{
+    width: 80px;
+    height: 80px;
+}
+} 
+@media(min-height:1000px){
+.box-content{
+width: 1000px;
+height: 1000px;
+} 
+} 
+
+
+
